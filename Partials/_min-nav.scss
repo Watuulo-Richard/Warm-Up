@@ -1,0 +1,116 @@
+.min {
+    
+    background: $white-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   .search-input-container {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    background: $body-color;
+    padding-right: 3.2rem;
+    padding: .6rem ;
+    border-radius: 3.2rem;
+    border: #4646479a solid 2px;
+    & i {
+        font-size: 1.6rem;
+        background: transparent;
+        padding: 0rem 1rem;
+        color: #4646479a;
+    }
+    & input {
+        font-size: 1.6rem;
+        width: 100%;
+        border: none;
+        background: transparent;
+        padding-right: 0rem 3.2rem;
+        outline: none;
+    }
+   }
+   .other-content-on-the-right {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    .message-icon {
+        & i {
+            font-size: 3rem;
+            color: $text-color;
+        }
+    }
+    .notification-icon {
+        & i {
+            font-size: 3rem;
+            color: $text-color;
+        }
+    }
+    .logo-two {
+        height: 80px;
+        width: 80px;
+        border-radius: 20px;
+        & img {
+            width: 100%;
+            display: block;
+        }
+    }
+   }
+   @media (max-width: 1024px){
+
+   }
+   @media (max-width: 495px){
+    background: $white-color;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   .search-input-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: $body-color;
+    padding-right: 3.2rem;
+    padding: .6rem ;
+    border-radius: 3.2rem;
+    border: #4646479a solid 2px;
+    & i {
+        font-size: 1.6rem;
+        background: transparent;
+        padding: 0rem 1rem;
+        color: #4646479a;
+    }
+    & input {
+        font-size: 1.6rem;
+        width: 100%;
+        border: none;
+        background: transparent;
+        padding-right: 0rem 3.2rem;
+        outline: none;
+    }
+   }
+   .other-content-on-the-right {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    .message-icon {
+        & i {
+            font-size: 3rem;
+            color: $text-color;
+        }
+    }
+    .notification-icon {
+        & i {
+            font-size: 3rem;
+            color: $text-color;
+        }
+    }
+    .logo-two {
+        height: 80px;
+        width: 80px;
+        border-radius: 20px;
+        & img {
+            width: 100%;
+            display: block;
+        }
+    }
+   }
+   }
+}

@@ -1,0 +1,16 @@
+.btn {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    padding: 1.6rem 3.2rem;
+    border-radius: 3.2rem;
+    background: $button-bg;
+    color: $body-color;
+    font-size: 1.8rem;
+    font-weight: bold;
+    transition: .2s ease-in-out;
+    &:hover {
+        background: transparent;
+        border: $button-bg solid .3rem;
+        color: $button-bg;
+    }
+}
